@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background: #F6F7F7;
+  color: #394347;
+  font-family: HelveticaNeue;
+  outline: none;
+}
+input { outline: none; }
+button { outline: none; }
+
+.c-white { color: #fff; }
+.c-black { color: #394347; }
+.c-grey { color: #909090; }
+.c-blue { color: #4A90E2; }
+.c-dark-blue { color: #184aa1; }
+.c-red { color: #FB5555; }
+
+.bg-white { background: #fff; }
+.bg-black { background: #2C3A4C; }
+.bg-grey { background: #D0D0D0; }
+.bg-white-grey { background: #F0F2F5; }
+.bg-red { background: #FB5555; }
+.bg-yellow { background: #F5AF3A; }
+.bg-orange { background: #F7A24C; }
+.bg-green { background: #36B784; }
+.bg-blue { background: #4A90E2; }
+.bg-purple { background: #9013FE; }
+
+.btn-white-grey { background: #F0F2F5; border: none; border-radius: 4px;}
+.btn-blue { background: #286EEA; color: #fff; border: none; border-radius: 4px; cursor: pointer;}
+.btn-green { background: #10B975; color: #fff; border: none; border-radius: 4px; cursor: pointer;}
+.btn-red { background: #fb5555; color: #fff; border: none; border-radius: 4px; cursor: pointer;}
+
+.border-grey {border: 1px solid #d3d9db; border-radius: 4px;}
+.bottomline-grey {border-bottom: 1px solid #d3d9db;}
+
+.bold {
+  font-weight: bold;
+}
+.f-t1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.f-t2 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.f-t3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.f-c {
+  font-size: 14px;
+}
+.f-c1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.df { display: flex; }
+.df-jcsa { justify-content: space-around; }
+.df-jcsb { justify-content: space-between; }
+.df-jcse { justify-content: space-evenly; }
+.df-jcfe { justify-content: flex-end; }
+.df-aic { align-items: center; }
+.df-aife { align-items: flex-end; }
+.df-wrap { flex-wrap: wrap; }
+.df-wrap-reverse { flex-wrap: wrap-reverse; }
+.df-column { flex-direction: column; }
+.df-rr { flex-direction: row-reverse }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pointer { cursor: pointer; }
+.ellipsis { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
